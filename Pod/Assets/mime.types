@@ -1218,6 +1218,7 @@ audio/mp4					mp4a
 # audio/mpa
 # audio/mpa-robust
 audio/mpeg					mpga mp2 mp2a mp3 m2a m3a
+audio/mp3                          mp3
 # audio/mpeg4-generic
 # audio/musepack
 audio/ogg					oga ogg spx
