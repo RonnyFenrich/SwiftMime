@@ -32,7 +32,7 @@ public class SwiftMime {
     }
 
     private func loadTypesFile(filePath: String) {
-        let path =  Bundle(for: object_getClass(self)).path(forResource: filePath, ofType: "types")
+        let path =  Bundle(for: object_getClass(self)!).path(forResource: filePath, ofType: "types")
         guard let content = try? NSString(contentsOfFile:path!, encoding: String.Encoding.utf8.rawValue) else { return }
 
         var extensionsForType = [String: [String]]()
